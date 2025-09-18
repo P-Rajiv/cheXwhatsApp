@@ -1,7 +1,3 @@
-Here’s a cleaned-up **README.md** style section you can drop into your repo:
-
----
-
 # Evaluation Metrics for CheXwhatsApp
 
 This repository contains the implementation of evaluation metrics introduced in the paper:
