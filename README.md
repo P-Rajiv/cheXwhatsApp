@@ -38,7 +38,7 @@ To quantify and evaluate these differences — in both **classification performa
 * **Definition:** Fraction of images where predictions differ between original and WhatsApp-compressed versions.
 * **Computation:**
 
-**PI Score** = (number of images with different predictions) / (total number of images)
+  $$ \text{PI Score} = \frac((number of images with different predictions)}{(total number of images)} $$
 
 * **Goal:** Quantify overall prediction instability caused by compression.
 
