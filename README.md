@@ -15,14 +15,10 @@ To quantify and evaluate these differences — in both **classification performa
 
 ## 📊 Metrics
 
-### 1. **LI-Score (Localization Instability Score)**
-
-* **Definition:** Proportion of cases where high-resolution (HR) and low-resolution (LR) versions of an image are assigned **different labels**.
-* **Goal:** Measure stability of predictions under compression.
 
 ---
 
-### 2. **OLS-Score (Out-of-Lung Saliency Score)**
+### 1. **OLS-Score (Out-of-Lung Saliency Score)**
 
 * **Definition:** Measures how much of the explainability map (e.g., Grad-CAM heatmap) lies **outside the lung region**.
 * **Computation:**
@@ -37,7 +33,7 @@ To quantify and evaluate these differences — in both **classification performa
 
 ---
 
-### 3. **PI-Score (Prediction Instability Score)**
+### 2. **PI-Score (Prediction Instability Score)**
 
 * **Definition:** Fraction of images where predictions differ between original and WhatsApp-compressed versions.
 * **Computation:**
@@ -47,6 +43,11 @@ To quantify and evaluate these differences — in both **classification performa
   $$
 * **Goal:** Quantify overall prediction instability caused by compression.
 
+---
+### 3. **LI-Score (Localization Instability Score)**
+
+* **Definition:** Proportion of cases where high-resolution (HR) and low-resolution (LR) versions of an image are assigned **different areas of prediction**.
+* **Goal:** Measure stability of predictions under compression for detection based models.
 ---
 
 ## 🔗 Reference
