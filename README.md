@@ -39,7 +39,7 @@ To quantify and evaluate these differences — in both **classification performa
 * **Computation:**
 
   $$
-  \text{PI Score} = \frac{\#\{\text{images with different predictions}\}}{\text{total images}}
+  \text{PI Score} = \frac{\{\text{number of images with different predictions}\}}{\text{total images}}
   $$
 * **Goal:** Quantify overall prediction instability caused by compression.
 
