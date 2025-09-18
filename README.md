@@ -58,5 +58,3 @@ If you use these metrics or the CheXwhatsApp dataset, please cite:
 > CVPR 2025.
 
 ---
-
-Do you want me to also add **usage instructions with code snippets** (e.g., `python pi_score.py --input ...`) so the README is not just descriptive but also practical for new users?
